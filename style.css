@@ -8,15 +8,15 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    margin: 0px 100px 0px 10px;
-    padding: 0px 10px 0px 10px;
 }
 
 div {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 20px;
     border-style: solid 1px;
+    list-style: none;
 }
 
-h1 {
+h1 a {
     color: #373fff;
+    text-decoration: none;
 }
