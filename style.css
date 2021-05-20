@@ -11,11 +11,21 @@ body {
 
 div {
     margin: 0px 10px 0px 20px;
-    border-style: solid 1px;
     list-style: none;
+    width: max-content;
 }
 
 h1 a {
     color: #373fff;
     text-decoration: none;
+}
+
+li {
+    border: solid 1px black;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px;
+}
+
+li:hover {
+    background: skyblue;
 }
