@@ -13,11 +13,18 @@ div {
     margin: 0px 10px 0px 20px;
     list-style: none;
     width: max-content;
+    max-width: 80vw;
+}
+
+h1 {
+    line-height: 1em;
+    text-align: center;
 }
 
 h1 a {
     color: #373fff;
     text-decoration: none;
+
 }
 
 li {
