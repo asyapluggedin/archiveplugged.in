@@ -9,13 +9,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-div {
-    margin: 0px 10px 0px 20px;
-    list-style: none;
-    width: max-content;
-    max-width: 80vw;
-}
-
 h1 {
     line-height: 1em;
     text-align: center;
@@ -27,7 +20,36 @@ h1 a {
 
 }
 
-li {
+nav {
+    margin: 0px auto;
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+    width: max-content;
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: red;
+}
+
+nav li {
+    border: solid 1px black;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.linktree {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+    width: max-content;
+    max-width: 80vw;
+}
+
+.linktree li {
     border: solid 1px black;
     padding: 5px 5px 5px 5px;
     margin: 5px 0px;
