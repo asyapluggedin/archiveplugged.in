@@ -52,10 +52,10 @@ input{
     left:0%;/**/
     text-decoration: none;
     color: #cc0000;
-    -webkit-animation: myOrbit 5s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit 5s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit 5s linear infinite; /* Opera 12+ */
-            animation: myOrbit 5s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
+            animation: myOrbit 10s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
