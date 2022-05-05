@@ -1,4 +1,3 @@
-
 /*Fonts*/
 /* Work Sans */
 @import {
@@ -50,8 +49,7 @@ nav li {
     list-style: none;
     margin: 0px;
     padding: 0px 20px 0px 20px;
-    width: max-content;
-    max-width: 40vw;
+
 }
 
 #about li {
@@ -60,25 +58,26 @@ nav li {
     margin: 5px 0px;
 }
 
-
+.info {
+    display: flex;
+    margin: 5px 100px 0px 0px;
+}
 
 
 footer {
-   
+
     bottom: 100px;
 }
 
 
-#projects {
-    
-}
+#projects {}
 
 .linktree {
     list-style: none;
     margin: 0px;
     padding: 0px 20px 0px 20px;
     width: max-content;
-    max-width: 80vw;
+    max-width: 600px;
 }
 
 .linktree li {
