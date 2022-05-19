@@ -60,9 +60,19 @@ nav li {
 
 .info {
     display: flex;
-    margin: 5px 100px 0px 0px;
+    margin: 5px 10px 0px 0px;
+    flex-wrap: wrap;
 }
 
+.stretchy {
+    width: 45%;
+    max-width: 300px;
+}
+
+.flexy {
+    max-width: 400px;
+    margin: auto 50px;
+}
 
 footer {
 
